@@ -6,7 +6,7 @@ order_items as (
 
 ),
 
-
+-- this is a changes
 orders as (
 
     select * from {{ ref('stg_orders') }}
